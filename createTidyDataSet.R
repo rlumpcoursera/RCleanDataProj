@@ -32,16 +32,24 @@ createTidyDataSet <- function(dataDir) {
   read.table(paste0(dataDir,"activity_labels.txt")) -> activities
   # now translate allactivities to frienldy "english" names (eg. WALKING, etc)
   activities[,2][match(allactvities[,1],activities[,1])] -> activitesByName
-  aggregate(alldataOfInterest,c(allsubjects,data.frame(activitesByName)),FUN=mean) -> rrr
-  rrr
+  
+  # aggregate mean on subjects and activities to get final desired data content
+  aggregate(alldataOfInterest,c(allsubjects,data.frame(activitesByName)),FUN=mean) -> finalDataFrame
   
   
   # get names of features of interest
-  #features[featuresOfInterest,][,2] -> featuresOfInterestNames
-  #featuresOfInterestNames
+  features[featuresOfInterest,][,2] -> featuresOfInterestNames
+  featuresOfInterestNames
   
   # clean up names to what we want (ie. remove "()" and replace "-" with ".")
-  #gsub("[()]","",featuresOfInterestNames) -> featuresOfInterestNames
-  #gsub("-",".",featuresOfInterestNames) -> featuresOfInterestNames
-  #featuresOfInterestNames
+  gsub("[()]","",featuresOfInterestNames) -> featuresOfInterestNames
+  gsub("-",".",featuresOfInterestNames) -> featuresOfInterestNames
+  #paste Avg. at beginning
+  paste0("Avg.",featuresOfInterestNames) -> featuresOfInterestNames
+  
+  # rename rrr colnames
+  colnames(finalDataFrame) <- c("Subject", "Activity", featuresOfInterestNames)
+  
+  # done !!
+  finalDataFrame
 }
