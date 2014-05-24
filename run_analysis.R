@@ -1,4 +1,4 @@
-createTidyDataSet <- function(dataDir) {
+createAvgDataSet <- function(dataDir,outfile) {
   
   # read data tables
   traindata <- read.table(paste0(dataDir,"/train/X_train.txt"))
@@ -54,6 +54,6 @@ createTidyDataSet <- function(dataDir) {
   # rename rrr colnames
   colnames(finalDataFrame) <- c("Subject", "Activity", featuresOfInterestNames)
   
-  # done !!
-  finalDataFrame
+  # write !!
+  write.table(finalDataFrame,outfile)
 }
