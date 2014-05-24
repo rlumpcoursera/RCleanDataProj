@@ -1,11 +1,11 @@
-# Summary: # 
+# Summary:  
    This dataset provides a calculated average of all std and mean data
    resulting from the merging of the training and test data that is 
    collected in the "Human Activity Recognition Using Smartphones Dataset".      
    The std and mean average values are presented on a per row basis for 
    each subject and the actvity that was performed to create the data. 
             
-# Steps to Data Creation: #
+# Steps to Data Creation: 
   * Merge test and training data found in the X_traia.txtn and X_test.txt files
   * Reduce above merged data set to "std" and "mean" data only carefully avoiding meanFreq data
   * Merge subject data set found in subject_train.txt and subject_test.txt files
@@ -14,7 +14,7 @@
   * Aggregate merged std and mean dataset by applying mean (ie calculate average) and groupng in rows by the merged subject and actvites data sets        
   * Give column names from derived from feature.txt "R language friendly" formats (ie. dot notatio) and also precede with "Avg" to indicate resultant data displayed 
 
-# Codebook #   
+# Codebook    
 
  Column #  Variable                            Values
  --------  ---------------------------------   -----------
