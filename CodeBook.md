@@ -7,7 +7,7 @@
             
 # Steps to Data Creation: 
   * Merge test and training data found in the X_train.txt and X_test.txt files
-  * Reduce above merged data set to "std" and "mean" data only carefully avoiding meanFreq data
+  * Reduce above merged data set to "std" and "mean" data only while carefully avoiding meanFreq data
   * Merge subject data sets found in subject_train.txt and subject_test.txt files
   * Merge the activites data set found in Y_train.txt and Y_test.txt data
   * Give activities "english" names (ie. 1 => WALKING)
