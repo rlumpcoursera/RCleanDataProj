@@ -12,7 +12,7 @@
   * Merge the activites data set found in Y_train.txt and Y_test.txt data
   * Give activities "english" names (ie. 1 => WALKING)
   * Aggregate merged std and mean dataset by applying mean (ie calculate average) and groupng in rows by the merged subject and actvites data sets        
-  * Give column names from derived from feature.txt "R language friendly" formats (ie. dot notatio) and also precede with "Avg" to indicate resultant data displayed 
+  * Give column names that are derived from feature.txt but are in an "R language friendly" formats (ie. dot notatio) and also prepend each with "Avg" to indicate resultant data displayed 
 
 # Codebook    
 
