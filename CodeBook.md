@@ -3,7 +3,7 @@
    resulting from the merging of the training and test data that is 
    collected in the "Human Activity Recognition Using Smartphones Dataset".      
    The std and mean average values are presented on a per row basis for 
-   each subject and the actvity that was performed to create the data. 
+   each subject and each actvity that was performed to create the data. 
             
 # Steps to Data Creation: 
   * Merge test and training data found in the X_traia.txtn and X_test.txt files
