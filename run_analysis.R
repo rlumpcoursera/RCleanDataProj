@@ -56,4 +56,6 @@ run_analysis <- function(dataDir,outfile) {
   
   # write !!
   write.table(finalDataFrame,outfile)
+  
+  finalDataFrame
 }
