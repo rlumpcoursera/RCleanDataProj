@@ -6,13 +6,13 @@
    each subject and each actvity that was performed to create the data. 
             
 # Steps to Data Creation: 
-  * Merge test and training data found in the X_traia.txtn and X_test.txt files
+  * Merge test and training data found in the X_train.txt and X_test.txt files
   * Reduce above merged data set to "std" and "mean" data only carefully avoiding meanFreq data
-  * Merge subject data set found in subject_train.txt and subject_test.txt files
+  * Merge subject data sets found in subject_train.txt and subject_test.txt files
   * Merge the activites data set found in Y_train.txt and Y_test.txt data
   * Give activities "english" names (ie. 1 => WALKING)
   * Aggregate merged std and mean dataset by applying mean (ie calculate average) and groupng in rows by the merged subject and actvites data sets        
-  * Give column names that are derived from feature.txt but are in an "R language friendly" formats (ie. dot notatio) and also prepend each with "Avg" to indicate resultant data displayed 
+  * Give column names that are derived from feature.txt but are in an "R language friendly" formats (ie. dot notation) and also prepend each with "Avg" to indicate resultant calculation displayed 
 
 # Codebook    
 
