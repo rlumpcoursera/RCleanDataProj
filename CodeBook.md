@@ -2,7 +2,7 @@
    This dataset provides a calculated average of all std and mean data
    resulting from the merging of the training and test data that is 
    collected in the "Human Activity Recognition Using Smartphones Dataset".      
-   The std and mean average values are presented on a per row basis for 
+   The average of the std and mean values are calculated and are presented on a per row basis for 
    each subject and each actvity that was performed to create the data. 
             
 # Steps to Data Creation: 
