@@ -1,8 +1,11 @@
 # run_analysis(dataDir,outfile)
 #
+# creates tidy set of averages std and mean data from merged train and test 
+# aggregated in rows by subject and activity
+#
 # arguments:
-#    dataDir - path to unzipped data 
-#    outfile - path to tidy data output
+#    dataDir - path (in quotes) to unzipped data 
+#    outfile - path (in quotes) to tidy data output
 #
 #    return -  data frame of resultant tidy data set
 run_analysis <- function(dataDir,outfile) { 
