@@ -20,8 +20,8 @@
  --------  |  --------------------------------- |  -----------
     1      | Subject                            | 1 thru 30
     2      | Activty                            | WALKING, WALKING_UPSTAIRS
-                                                | WALKING_DOWNSTAIRS, SITTING,
-                                                | STANDING, LAYING
+           |                                    | WALKING_DOWNSTAIRS, SITTING,
+           |                                    | STANDING, LAYING
     3      | Avg.tBodyAcc.mean.X                | real number
     4      | Avg.tBodyAcc.mean.Y                | real number
     5      | Avg.tBodyAcc.mean.Z                | real number
