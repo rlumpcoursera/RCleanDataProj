@@ -1,4 +1,11 @@
-run_analysis <- function(dataDir,outfile) {
+# run_analysis(dataDir,outfile)
+#
+# arguments:
+#    dataDir - path to unzipped data 
+#    outfile - path to tidy data output
+#
+#    return -  data frame of resultant tidy data set
+run_analysis <- function(dataDir,outfile) { 
   
   # read data tables
   traindata <- read.table(paste0(dataDir,"/train/X_train.txt"))
@@ -57,5 +64,6 @@ run_analysis <- function(dataDir,outfile) {
   # write !!
   write.table(finalDataFrame,outfile)
   
+  # return tidy data set as data frame
   finalDataFrame
 }
