@@ -1,4 +1,4 @@
-createAvgDataSet <- function(dataDir,outfile) {
+run_analysis <- function(dataDir,outfile) {
   
   # read data tables
   traindata <- read.table(paste0(dataDir,"/train/X_train.txt"))

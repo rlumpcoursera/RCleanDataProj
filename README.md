@@ -4,6 +4,6 @@
 
 1. Get data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-2. Run the run_analysis.R r script (found in in this respository):
+2. Run the *run_analysis.R* r script (found in in this respository):
    run_analysis <- function(dataDir,outfile)
-     where  dataDir is root of data from item 1, and outfile is desired path for reulsultant output
+     where  dataDir is root of data from item 1, and outfile is desired path for resultant output
