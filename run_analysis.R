@@ -1,6 +1,6 @@
 # run_analysis(dataDir,outfile)
 #
-# creates tidy set of averages std and mean data from merged train and test 
+# creates tidy set of averaged std and mean data from merged train and test 
 # aggregated in rows by subject and activity
 #
 # arguments:
